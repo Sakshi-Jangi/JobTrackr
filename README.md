@@ -69,7 +69,4 @@ Edit
 npm start
 Visit in browser: http://localhost:3000
 
-yaml
-Copy
-Edit
 
