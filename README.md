@@ -14,6 +14,17 @@ Job seekers often struggle to stay organized. JobTrackr solves this with:
 
 ---
 
+## ✅ Features
+
+- ➕ Add and track job applications  
+- 🧠 Get resume feedback from AI  
+- 📅 Track interviews, deadlines, and follow-ups  
+- 📱 Clean, mobile-responsive UI  
+
+> Built for real-world job seekers. Powered by AI. Designed for simplicity.
+
+---
+
 ## 🛠 Tech Stack
 
 - **Frontend**: React.js + Tailwind CSS  
@@ -58,16 +69,7 @@ Edit
 npm start
 Visit in browser: http://localhost:3000
 
-✅ Features
-➕ Add and track job applications
-
-🧠 Get resume feedback from AI
-
-📅 Track interviews, deadlines, and follow-ups
-
-📱 Clean, mobile-responsive UI
-
-Built for real-world job seekers. Powered by AI. Designed for simplicity.
-
-
+yaml
+Copy
+Edit
 
