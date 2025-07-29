@@ -1,90 +1,64 @@
-# 💼 JobTrackr — AI-Powered Job Application Tracker
+# JobTrackr – AI-Powered Job Application Tracker
 
-**JobTrackr** is a comprehensive job application management tool designed to streamline your job search process. It combines AI-driven features with a clean interface to help you stay organized and confident in your job hunt. Features include resume advice, job search assistance, and reminders — powered by the Gemini API.
+**JobTrackr** is a full-stack web application that helps users track and manage job applications efficiently. It integrates AI (via Gemini API) to offer resume advice, interview prep, and personalized job search guidance — all in a single intuitive platform.
 
 ---
 
-## ⚙️ Getting Started
+## 💡 Why JobTrackr?
 
-Follow these steps to run the project locally:
+Job seekers often lose track of where they’ve applied, interview follow-ups, or resume improvements. JobTrackr solves this by offering:
 
-### 1. Clone the Repository
+- Organized tracking of job applications
+- AI-powered suggestions and feedback
+- Custom reminders for interviews and follow-ups
+
+---
+
+## 🛠 How I Built It
+
+- **Frontend**: React.js with Tailwind CSS for fast, responsive UI
+- **AI Integration**: Gemini API for chat-based assistance and resume analysis
+- **Backend (optional)**: Node.js & Express to securely handle API keys
+- **Routing & State**: React Router and useState/useEffect hooks
+- **Networking**: Axios for API requests
+
+---
+
+## ⚙️ How to Run It Locally
+
+### Prerequisites
+- Node.js installed
+- Gemini API Key
+
+### Steps
 
 ```bash
 git clone https://github.com/Sakshi-Jangi/JobTrackr.git
-cd JobTrackr
-2. Install Frontend Dependencies
-bash
-Copy
-Edit
-cd client
+cd JobTrackr/client
 npm install
-3. Configure Environment Variables
-Create a .env file inside the client/ directory and add your Gemini API key:
+Create a .env file in the client/ folder:
 
-env
+ini
 Copy
 Edit
 REACT_APP_GEMINI_API_KEY=your_api_key_here
-4. Run the App
+Then run:
+
 bash
 Copy
 Edit
 npm start
-Open your browser and visit: http://localhost:3000
+Visit: http://localhost:3000
 
-🚀 Features
-✅ Track Job Applications: Add, view, and manage all your job applications in one place.
+✅ Key Features
+Add and manage multiple job applications
 
-🤖 AI Resume Assistant: Get feedback and tips on your resume using Gemini AI.
+Get resume feedback from AI
 
-🔎 Search Jobs: Discover relevant job listings inside the platform.
+Track deadlines, interviews, and follow-ups
 
-⏰ Follow-Up Reminders: Never forget to send a follow-up or prepare for an interview.
+Mobile-friendly and user-focused design
 
-📱 Responsive Design: Fully optimized for mobile and desktop usage.
+Built with a focus on user experience, AI integration, and real-world utility.
 
-🛠️ Tech Stack
-Frontend: React.js, Tailwind CSS, React Router
 
-API Integration: Gemini API
-
-State Management: useState, useEffect
-
-Networking: Axios
-
-🤝 Contributing
-Contributions are welcome! Here’s how to contribute:
-
-Fork the repository
-
-Create a new branch
-
-bash
-Copy
-Edit
-git checkout -b feature/your-feature
-Make your changes and commit
-
-bash
-Copy
-Edit
-git commit -m "Add feature: your feature name"
-Push to your branch
-
-bash
-Copy
-Edit
-git push origin feature/your-feature
-Open a Pull Request
-
-📄 License
-This project is licensed under the MIT License.
-See the LICENSE file for more details.
-
-📞 Contact
-For any questions, feedback, or collaboration:
-
-Sakshi Jangi
-📧 sakshijangi16@gmail.com
-🔗 GitHub Profile
