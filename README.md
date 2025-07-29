@@ -55,17 +55,13 @@ cd JobTrackr/client
 
 # Install dependencies
 npm install
+
 Create a .env file inside the client/ folder and add:
-
 env
-Copy
-Edit
 REACT_APP_GEMINI_API_KEY=your_api_key_here
-Start the app:
 
+Start the app:
 bash
-Copy
-Edit
 npm start
 Visit in browser: http://localhost:3000
 
