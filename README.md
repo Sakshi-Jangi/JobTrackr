@@ -1,80 +1,72 @@
 # JobTrackr – AI-Powered Job Application Tracker
 
-**JobTrackr** is a full-stack web application that helps users track and manage job applications efficiently. It integrates AI (via Gemini API) to offer resume advice, interview prep, and personalized job search guidance — all in a single intuitive platform.
+**JobTrackr** is a full-stack web app that helps users track job applications with ease. It integrates AI (via Gemini API) to provide resume feedback, interview prep, and job search assistance — all in one streamlined platform.
 
 ---
 
 ## 💡 Why JobTrackr?
 
-Job seekers often lose track of where they’ve applied, interview follow-ups, or resume improvements. **JobTrackr** solves this by offering:
+Job seekers often struggle to stay organized. JobTrackr solves this with:
 
-- 🗂️ Organized tracking of job applications  
-- 🤖 AI-powered suggestions and resume feedback  
-- ⏰ Custom reminders for interviews and follow-ups  
-
----
-
-## 🛠 How I Built It
-
-- **Frontend**: React.js + Tailwind CSS  
-- **AI Integration**: Gemini API (for chat + resume analysis)  
-- **Backend (optional)**: Node.js + Express (for secure API routing)  
-- **Routing & State**: React Router, useState, useEffect  
-- **Networking**: Axios (for API requests)  
+- 🗂️ Easy tracking of job applications  
+- 🤖 AI-powered resume and interview guidance  
+- ⏰ Custom reminders for deadlines and follow-ups  
 
 ---
 
-## ⚙️ Run Locally
+## 🛠 Tech Stack
+
+- **Frontend:** React.js + Tailwind CSS  
+- **AI Integration:** Gemini API  
+- **Backend (optional):** Node.js + Express  
+- **Routing & State:** React Router, useState, useEffect  
+- **API Calls:** Axios  
+
+---
+
+## ⚙️ Local Setup
 
 ### Prerequisites
-
 - Node.js installed  
-- Gemini API key
+- Gemini API Key
 
----
+### Steps
+```bash
+# Clone the repository
+git clone https://github.com/Sakshi-Jangi/JobTrackr.git
 
-### 🔧 Setup Steps
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Sakshi-Jangi/JobTrackr.git
-Navigate to the client folder
-
-bash
-Copy
-Edit
+# Go to client folder
 cd JobTrackr/client
-Install dependencies
 
-bash
-Copy
-Edit
+# Install dependencies
 npm install
-Create a .env file inside the client/ folder and add:
+Create a .env file inside the client/ folder:
 
 ini
 Copy
 Edit
 REACT_APP_GEMINI_API_KEY=your_api_key_here
-Start the development server
+Start the app:
 
 bash
 Copy
 Edit
 npm start
-Open your browser and visit: http://localhost:3000
+Open in browser: http://localhost:3000
+---
 
-✅ Key Features
-➕ Add and manage job applications
+✅ Features
+Add and track job applications
 
-🧠 Get AI-powered resume feedback
+Get resume feedback from AI
 
-📅 Track deadlines, interviews & follow-ups
+Track interviews, deadlines, and follow-ups
 
-📱 Mobile-friendly and user-focused UI
+Clean, mobile-responsive UI
 
-Built with a focus on real-world utility, AI integration, and a seamless user experience.
+Built for real-world job seekers. Powered by AI. Designed for simplicity.
 
-yaml
+python
 Copy
 Edit
+
