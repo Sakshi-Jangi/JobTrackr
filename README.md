@@ -16,23 +16,26 @@ Job seekers often struggle to stay organized. JobTrackr solves this with:
 
 ## 🛠 Tech Stack
 
-- **Frontend:** React.js + Tailwind CSS  
-- **AI Integration:** Gemini API  
-- **Backend (optional):** Node.js + Express  
-- **Routing & State:** React Router, useState, useEffect  
-- **API Calls:** Axios  
+- **Frontend**: React.js + Tailwind CSS  
+- **AI Integration**: Gemini API  
+- **Backend (optional)**: Node.js + Express  
+- **Routing & State**: React Router, useState, useEffect  
+- **API Calls**: Axios  
 
 ---
 
 ## ⚙️ Local Setup
 
 ### Prerequisites
+
 - Node.js installed  
-- Gemini API Key
-🔧 Steps
-bash
-Copy
-Edit
+- Gemini API Key  
+
+---
+
+### 🔧 Steps
+
+```bash
 # Clone the repository
 git clone https://github.com/Sakshi-Jangi/JobTrackr.git
 
@@ -41,7 +44,7 @@ cd JobTrackr/client
 
 # Install dependencies
 npm install
-Create a .env file inside the client/ folder and add your Gemini API key:
+Create a .env file inside the client/ folder and add:
 
 env
 Copy
@@ -53,16 +56,16 @@ bash
 Copy
 Edit
 npm start
-Then open in browser: http://localhost:3000
+Visit in browser: http://localhost:3000
 
 ✅ Features
-Add and track job applications
+➕ Add and track job applications
 
-Get resume feedback from AI
+🧠 Get resume feedback from AI
 
-Track interviews, deadlines, and follow-ups
+📅 Track interviews, deadlines, and follow-ups
 
-Clean, mobile-responsive UI
+📱 Clean, mobile-responsive UI
 
 Built for real-world job seekers. Powered by AI. Designed for simplicity.
 
