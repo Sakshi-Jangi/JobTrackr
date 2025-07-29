@@ -26,24 +26,35 @@ Job seekers often lose track of where they’ve applied, interview follow-ups, o
 
 ## ⚙️ Run Locally
 
-1. Clone the repo & install dependencies:
+### Prerequisites
+
+- Node.js installed  
+- Gemini API key
+
+### Setup Steps
+
 ```bash
+# 1. Clone the repository
 git clone https://github.com/Sakshi-Jangi/JobTrackr.git
+
+# 2. Navigate to the client directory
 cd JobTrackr/client
+
+# 3. Install dependencies
 npm install
-Add your Gemini API key to .env:
+Configure Environment
+Create a .env file inside the client/ folder and add:
 
 ini
 Copy
 Edit
 REACT_APP_GEMINI_API_KEY=your_api_key_here
-Start the app:
-
+Start the App
 bash
 Copy
 Edit
 npm start
-Visit: http://localhost:3000
+Then open: http://localhost:3000
 
 ✅ Key Features
 ➕ Add and manage job applications
@@ -55,5 +66,7 @@ Visit: http://localhost:3000
 📱 Mobile-friendly and user-focused UI
 
 Built with a focus on real-world utility, AI integration, and a seamless user experience.
+
+
 
 
