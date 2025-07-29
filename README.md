@@ -29,9 +29,10 @@ Job seekers often struggle to stay organized. JobTrackr solves this with:
 ### Prerequisites
 - Node.js installed  
 - Gemini API Key
-
-### Steps
-```bash
+🔧 Steps
+bash
+Copy
+Edit
 # Clone the repository
 git clone https://github.com/Sakshi-Jangi/JobTrackr.git
 
@@ -40,9 +41,9 @@ cd JobTrackr/client
 
 # Install dependencies
 npm install
-Create a .env file inside the client/ folder:
+Create a .env file inside the client/ folder and add your Gemini API key:
 
-ini
+env
 Copy
 Edit
 REACT_APP_GEMINI_API_KEY=your_api_key_here
@@ -52,8 +53,7 @@ bash
 Copy
 Edit
 npm start
-Open in browser: http://localhost:3000
----
+Then open in browser: http://localhost:3000
 
 ✅ Features
 Add and track job applications
@@ -66,7 +66,5 @@ Clean, mobile-responsive UI
 
 Built for real-world job seekers. Powered by AI. Designed for simplicity.
 
-python
-Copy
-Edit
+
 
